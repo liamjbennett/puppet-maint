@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rake"
   spec.add_dependency "json"
-  spec.add_dependency "puppet"
+  spec.add_dependency "puppet", "~> 3.0"
 
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "gem_publisher", "~> 1.3"
